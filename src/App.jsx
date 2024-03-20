@@ -1,7 +1,12 @@
-import './App.css';
+import Formulario from './components/Formulario';
+import React from 'react';
 
-function App () {
-  <></>
+const App = () => {
+  return (
+    <div>
+      <Formulario />
+    </div>
+  );
 };
 
 export default App;
